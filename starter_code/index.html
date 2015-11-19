@@ -3,34 +3,48 @@
 
   <head>
       <title>
-        <!-- Enter a title for your game here -->
+        Rock, Paper, and SCISSORS!
       </title>
-      <!-- Link CSS here -->
+      
+      <link rel="stylesheet" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css">
+      
+      <link rel="stylesheet" href="style.css" type="text/css" />
 
-      <!-- Link JQuery here -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-      <!-- Link script.js here -->
+      <script src="script.js"></script>
   </head>
 
   <body>
 
     <div class="container">
-      <div id="rock" class="token">ROCK</div>
-      <div id="paper" class="token">PAPER</div>
-      <!-- Create Scissors option here -->
+     <button id="rock" class="token">ROCK</button>
+      <button id="paper" class="token">PAPER</button>
+      <button id="scissors" class="token">SCISSORS</button>
     </div>
+  
 
     <div class="container">
       <div id="message">
           Click on your selection
       </div>
     </div>
-
+    
     <div>
+      <button id="restart">RESTART GAME</button>
+    </div>
+
+    <p><div>
       User Points: <span id='userPoint'></span>
       Ai Points: <span id='aiPoint'></span>
     </div>
-
+    
+    <img src="http://userscontent2.emaze.com/images/bbc9ea1b-1ecf-45b9-beea-a7e3ad7612c3/439e0a2e-5e2c-406f-bd8f-10e2d266a5e8.png" class="animated" id="rocky">
+    
+    <img src="http://cliparts.co/cliparts/kc8/o9B/kc8o9Bbji.png" class="animated infinite swing" id="cut" height=300px; width=300px>
+   
+    <img src="http://images.sodahead.com/polls/000622767/polls_ToiletPaperHappy_3750_136144_answer_1_xlarge.png" class="animated" id="whitePaper">
+   
   </body>
 
 </html>
